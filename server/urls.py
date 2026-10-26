@@ -22,6 +22,7 @@ urlpatterns = [
     path('account/', include('account.urls')),
     path('api/', include('products.urls')),
     path('korzina/', include('korzina.urls')),
+    path('orders/', include('orders.urls')),
     path(
         'swagger/',
         schema_view.with_ui('swagger', cache_timeout=0),
